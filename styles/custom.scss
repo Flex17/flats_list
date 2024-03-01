@@ -1,0 +1,52 @@
+html, body {
+    min-height: 100vh;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+.rc-slider {
+    height: auto !important;
+    max-width: 96% !important;
+    margin: 0 auto;
+    padding: 0 !important;
+}
+
+.rc-slider-rail {
+    max-width: 100% !important;
+}
+
+.rc-slider-step {
+    background-color: black !important;
+    height: 1px !important;
+}
+
+
+.rc-slider-handle {
+    background-color: #2495FE !important;
+    width: 9px !important;
+    height: 9px !important;
+    border: none !important;
+}
+
+
+.rc-slider-track {
+    height: 3px !important;
+    background-color: #2495FE !important;
+    top: -2px;
+}
+
+.rc-slider-handle-dragging {
+    box-shadow: none !important;
+}
+
+.rc-slider-handle-click-focused {
+    border: none !important;
+    outline: none !important;
+}
