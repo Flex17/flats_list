@@ -13,6 +13,13 @@ bun dev
 ```
 
 ## Описание
+### Используемые технологии:
+- React
+- NextJS
+- Typescript
+- Tailwind
+- SCSS
+- Axios
 
 ### Задачи:
 
